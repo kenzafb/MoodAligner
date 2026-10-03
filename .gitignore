@@ -1,0 +1,23 @@
+# Environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Dépendances
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+
+# Éditeurs et système
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build et logs
+dist/
+build/
+*.log
